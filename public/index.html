@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>d9ithubfavicon.png">
+    <title>d9ithub</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/2.5.94/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css'>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.transitions.css">
+ -->
+
+  </head>
+  <body class="">
+    <noscript>
+      <strong>We're sorry but d9ithub doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <a href="javascript:void(0);" id="rocketmeluncur" class="showrocket" ></a>
+    <!-- built files will be auto injected -->
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
+    <!-- jQuery library -->
+
+    <!-- Latest compiled JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="owl.carousel.js"></script>
+    <script>
+        $(window).scroll(function(){
+          if ($(this).scrollTop() > 50) {
+            $('.header').addClass('fixed');
+          } else {
+            $('.header').removeClass('fixed');
+          }
+      });
+
+      $(document).ready(function (){
+          $('.menu_onclick').on('click', function() {
+            $('body').toggleClass('fixed_body');
+          });
+      });
+      
+     
+      /* //////////////////////
+      Go to Top
+      //////////////////////// */
+      $(window).scroll(function(){
+        if($(window).scrollTop()<50){
+          $('#rocketmeluncur').slideUp(500);
+        }else{
+          $('#rocketmeluncur').slideDown(500);
+        }
+      })
+      $('#rocketmeluncur').click(function(){
+        $("html, body").animate({ scrollTop: '0px',display:'none'},{
+          duration: 600,  
+          easing: 'linear'
+        });
+        var self = this;
+        this.className += ' '+"launchrocket";
+        setTimeout(function(){
+          self.className = 'showrocket';
+        },800)
+      });
+
+    </script>
+  </body>
+</html>
