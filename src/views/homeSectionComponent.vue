@@ -2,25 +2,27 @@
   <div class="content_home_services">
     <!-- newData -->
     <div class="container">
-        <div class="row header_content_top">
-            <div class="col-lg-12">
-               <h2> OUR SERVICES</h2>
-            </div>
+      <div class="row header_content_top">
+        <div class="col-lg-12">
+          <h2>OUR SERVICES</h2>
         </div>
+      </div>
       <div class="row">
-          <div class="col-md-3 col-sm-6" data-aos="fade-left">
+        <div class="col-md-3 col-sm-6">
           <div class="serviceBox">
             <div class="service-content">
               <div class="service-icon">
-               <i class="fa fa-laptop"></i>
+                <i class="fa fa-laptop"></i>
               </div>
               <h3 class="title">Web Development</h3>
               <h5 class="description">We believe that a path to a more effective NYC government</h5>
             </div>
-            <router-link to="/ourService/webdevelopment"> <a class="read-more" href>Read More</a></router-link>
+            <router-link to="/ourService/webdevelopment">
+              <a class="read-more" href>Read More</a>
+            </router-link>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6" data-aos="fade-left">
+        <div class="col-md-3 col-sm-6">
           <div class="serviceBox">
             <div class="service-content">
               <div class="service-icon">
@@ -29,22 +31,26 @@
               <h3 class="title">Web Design</h3>
               <h5 class="description">We believe that a path to a more effective NYC government</h5>
             </div>
-           <router-link to="/ourService/webdesign"> <a class="read-more" href>Read More</a></router-link>
+            <router-link to="/ourService/webdesign">
+              <a class="read-more" href>Read More</a>
+            </router-link>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6" data-aos="fade-right">
+        <div class="col-md-3 col-sm-6" >
           <div class="serviceBox">
             <div class="service-content">
               <div class="service-icon">
                 <i class="fab fa-opencart"></i>
               </div>
-              <h3 class="title">CMS & Ecommerce </h3>
+              <h3 class="title">CMS & Ecommerce</h3>
               <h5 class="description">We believe that a path to a more effective NYC government</h5>
             </div>
-           <router-link to="/ourService/cmsandecommerce"> <a class="read-more" href>Read More</a></router-link>
+            <router-link to="/ourService/cmsandecommerce">
+              <a class="read-more" href>Read More</a>
+            </router-link>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6" data-aos="fade-right">
+        <div class="col-md-3 col-sm-6">
           <div class="serviceBox">
             <div class="service-content">
               <div class="service-icon">
@@ -52,8 +58,10 @@
               </div>
               <h3 class="title">Mobile Development</h3>
               <h5 class="description">We believe that a path to a more effective NYC government</h5>
-            </div>          
-           <router-link to="/ourService/mobileDevelopment"> <a class="read-more" href>Read More</a></router-link>
+            </div>
+            <router-link to="/ourService/mobileDevelopment">
+              <a class="read-more" href>Read More</a>
+            </router-link>
           </div>
         </div>
       </div>
@@ -125,24 +133,29 @@ export default {
 </script>
 
 <style scoped>
-.header_content_top{
-    text-align: center;
-    margin-bottom: 30px;
+.header_content_top {
+  text-align: center;
+  margin-bottom: 30px;
 }
-.header_content_top h2{font-family: cursive}
+.header_content_top h2 {
+  font-family: cursive;
+}
 .demo {
   background: #e2e2e2;
 }
-.service-icon h3{font-family: cursive;}
+.service-icon h3 {
+  font-family: cursive;
+}
 .serviceBox {
-    color: #000000;
-    padding: 0 10px 31px;
-    background-color: rgba(255,255,255,0.15);
-    border: 1px solid transparent;
-    border-radius: 20px;
-    margin: 80px 0 30px;
-    position: relative;
-    border: 1px solid #ababab;
+  color: #000000;
+  padding: 0 10px 31px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  /* margin: 80px 0 30px; */
+  margin: 101px 0 30px;
+  position: relative;
+  border: 1px solid #ababab;
 }
 
 .serviceBox .service-content {
@@ -173,11 +186,11 @@ export default {
 
 .serviceBox .service-icon {
   display: inline-block;
-    color: #0b71a3;
-    font-size: 76px;
-    margin-bottom: 10px;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+  color: #0b71a3;
+  font-size: 76px;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .serviceBox:hover .service-icon {
@@ -192,10 +205,10 @@ export default {
   font-family: cursive !important;
   height: 30px; */
   font-weight: 400;
-    /* text-transform: uppercase; */
-    margin: 18px 0 10px;
-    /* font-family: cursive !important; */
-    height: 30px;
+  /* text-transform: uppercase; */
+  margin: 18px 0 10px;
+  /* font-family: cursive !important; */
+  height: 30px;
 }
 
 .serviceBox .description {
@@ -205,67 +218,30 @@ export default {
 }
 
 .serviceBox .read-more {
-     display: block;
-    width: 60%;
-    font-size: 15px;
-    /* font-weight: 600; */
-    text-transform: uppercase;
-    text-align: center;
-    color: #0b71a3;
-    padding: 10px 0;
-    background-color: #fff;
-    border-radius: 36px;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    position: absolute;
-    left: 50%;
-    bottom: -20px;
-    border: 1px solid;
+  display: block;
+  width: 60%;
+  font-size: 15px;
+  /* font-weight: 600; */
+  text-transform: uppercase;
+  text-align: center;
+  color: #0b71a3;
+  padding: 10px 0;
+  background-color: #fff;
+  border-radius: 36px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  border: 1px solid;
 }
 
 .serviceBox .read-more:hover {
   text-decoration: none;
-    letter-spacing: 2px;
-    -webkit-box-shadow: 0 0 10px #000;
-    box-shadow: 0 0 4px #058dc5;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 4px #058dc5;
 }
-
-.serviceBox.green {
-  background-color: #44bb85;
-}
-
-.serviceBox.green .service-icon {
-  color: #44bb85;
-}
-
-.serviceBox.green .read-more {
-  background-color: #007a6d;
-}
-
-.serviceBox.blue {
-  background-color: #36bfc5;
-}
-
-.serviceBox.blue .service-icon {
-  color: #36bfc5;
-}
-
-.serviceBox.blue .read-more {
-  background-color: #015f65;
-}
-
-.serviceBox.red {
-  background-color: #f23d3a;
-}
-
-.serviceBox.red .service-icon {
-  color: #f23d3a;
-}
-
-.serviceBox.red .read-more {
-  background-color: #ad0e0c;
-}
-
 </style>

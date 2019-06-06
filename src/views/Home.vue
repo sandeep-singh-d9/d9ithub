@@ -2,7 +2,7 @@
     <div>
         <navigation></navigation>
         <Carousel></Carousel>
-        <!-- <HomeSection></HomeSection> -->
+        <HomeSection class="mobile_tab"></HomeSection>
         <!-- <portfolio></portfolio> -->
         <!-- <testimonailhome></testimonailhome> -->
         <!-- <contact></contact> -->

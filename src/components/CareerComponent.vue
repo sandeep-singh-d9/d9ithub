@@ -10,7 +10,7 @@
             <h2>Senior Wordpress Developer</h2>
           </div>
           <div class="col-sm-12 col-xs-12 col-md-12">
-            <div class="career_detail" data-aos="zoom-in">
+            <div class="career_detail">
               <div class="col-sm-8 col-xs-12 col-md-8">
                 <h3>Requirement: </h3>
                 <div>
@@ -50,7 +50,7 @@
                     </ul>
                     <h3><i class="fas fa-graduation-cap"></i> &nbsp;Education Qualification </h3>
                     <ul>
-                      <li><p>Graduates (BE,BTECH,BCA,MTECH,MCA)</p></li>
+                      <li><p>Graduates (BE, BTECH, BCA, MTECH, MCA)</p></li>
                     </ul>
                     <h3><i class="fas fa-address-card"></i> &nbsp;Job Type</h3>
                     <ul>

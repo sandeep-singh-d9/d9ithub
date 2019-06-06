@@ -139,7 +139,7 @@
                     This is where ONE delivers.
                   </div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -160,7 +160,7 @@
                     <br>Erjaan is used by businesses, educational institutions, students, and healthcare provider to build, send , collect and analyze data every day.
                   </div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -179,7 +179,7 @@
                     class="pie-context"
                   >We strive to make beautiful, lasting products that are eco-friendly, and that you can use with pride.</div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -198,7 +198,7 @@
                     class="pie-context"
                   >Openskies Tech’s goal is to transition work process from client location to its delivery center, risk free, rapidly and seamlessly. With a carefully designed process life cycle framework</div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -219,7 +219,7 @@
                     <br>The growth of self-insured health plans is fast and furious. Which makes JustMyDoc the ideal, long-term solution to help control and even lower these costs at the employer level.
                   </div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -238,7 +238,7 @@
                     class="pie-context"
                   >Sarapis is a New York-state incorporated, federally designated 501.c.3 nonprofit organization. Contributions to Sarapis are tax-deductible. The organization was formed in 2010 for “charitable and educational purposes”, which it accomplishes “by providing free consultations, trainings, and educational resources to nonprofit organizations to help them develop and deploy free/libre/open­source (“FLO”) technologies in order to operate more effectively.”</div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -257,7 +257,7 @@
                     class="pie-context"
                   >Beth serves as a Real Estate Agent at The Boulevard Company, and specializes in applying her ethics, experience and expertise to representing buyers and sellers. Additionally, Beth is a sought after consultant. She is a seasoned renovator and builder of fine homes and has spent decades cultivating her discerning eye for the ideal property and design.</div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -276,7 +276,7 @@
                     class="pie-context"
                   >Founded in 2014, we are industry leaders in the development of marketing automation systems, call center – CRM integrations, fully-integrated lead validation/verification tools, and lead processing solutions. We have developed solutions that work seamlessly with a range of popular CRMs such as: Infusionsoft, Active Campaign, ONTRAPORT, Salesforce, and GreenRope. JGRobo Marketing, Inc. is an Infusionsoft Certified Partner Company. Our specialty is integrating complex, multiple-source lead marketing campaign data into our client’s existing business and marketing software suites.</div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -295,7 +295,7 @@
                     class="pie-context"
                   >The goal of the Draft Animal-Power Network is to provide year-round educational and networking opportunities, highlighting ongoing efforts of people throughout the region who are educating, mentoring and building community around animal-power and renewable land use. Our mission: Advancing the use of draft animals and promoting sustainable land stewardship to build community through education and networking.</div>
                   <div class="pie-cta">
-                    <router-link to>See recipe</router-link>
+                    <router-link to>See More</router-link>
                   </div>
                 </div>
               </div>
@@ -415,7 +415,7 @@
                 This is where ONE delivers.
               </div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
@@ -439,7 +439,7 @@
                 <br>Erjaan is used by businesses, educational institutions, students, and healthcare provider to build, send , collect and analyze data every day.
               </div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
@@ -460,7 +460,7 @@
                 class="pie-context"
               >We strive to make beautiful, lasting products that are eco-friendly, and that you can use with pride.</div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
@@ -482,7 +482,7 @@
                 class="pie-context"
               >Openskies Tech’s goal is to transition work process from client location to its delivery center, risk free, rapidly and seamlessly. With a carefully designed process life cycle framework</div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
@@ -505,7 +505,7 @@
                 <br>The growth of self-insured health plans is fast and furious. Which makes JustMyDoc the ideal, long-term solution to help control and even lower these costs at the employer level.
               </div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
@@ -526,7 +526,7 @@
                 class="pie-context"
               >Sarapis is a New York-state incorporated, federally designated 501.c.3 nonprofit organization. Contributions to Sarapis are tax-deductible. The organization was formed in 2010 for “charitable and educational purposes”, which it accomplishes “by providing free consultations, trainings, and educational resources to nonprofit organizations to help them develop and deploy free/libre/open­source (“FLO”) technologies in order to operate more effectively.”</div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
@@ -547,7 +547,7 @@
                 class="pie-context"
               >Beth serves as a Real Estate Agent at The Boulevard Company, and specializes in applying her ethics, experience and expertise to representing buyers and sellers. Additionally, Beth is a sought after consultant. She is a seasoned renovator and builder of fine homes and has spent decades cultivating her discerning eye for the ideal property and design.</div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
@@ -568,7 +568,7 @@
                 class="pie-context"
               >We strive to make beautiful, lasting products that are eco-friendly, and that you can use with pride.</div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
@@ -589,7 +589,7 @@
                 class="pie-context"
               >The goal of the Draft Animal-Power Network is to provide year-round educational and networking opportunities, highlighting ongoing efforts of people throughout the region who are educating, mentoring and building community around animal-power and renewable land use. Our mission: Advancing the use of draft animals and promoting sustainable land stewardship to build community through education and networking.</div>
               <div class="pie-cta">
-                <router-link to>See recipe</router-link>
+                <router-link to>See More</router-link>
               </div>
             </div>
           </div>
