@@ -42,7 +42,7 @@
     <!-- android development -->
 
     <!-- Iphone development -->
-        <div class=" all_services" id="laravel">
+        <div class=" all_services Iphone" id="laravel">
           <div class="col-sm-6 left_services">
               <div class="services_text">
                 <h2>Iphone App Development</h2>

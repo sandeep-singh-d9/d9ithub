@@ -27,6 +27,9 @@
               <li>
                 <a class="fas fa-clock"></a>Monday to Friday: 09:30AM to 7:00PM
               </li>
+              <li>
+                <a href class="fas fa-map-marker-alt icon-font"></a> 25, 3rd Floor, 4D Square Mall Visat, Motera, Ahmedabad
+              </li>
             </ul>
           </div>
         </div>
@@ -45,21 +48,22 @@ export default {
   data: () => ({
     show: false
   }),
-  mounted(){
+  mounted() {
     var typed = new Typed(".element", {
       // Waits 1000ms after typing "First"
-      strings: ["Please find below contact details  <br> and contact us today!"],
+      strings: [
+        "Please find below contact details  <br> and contact us today!"
+      ],
       typeSpeed: 100,
       backSpeed: 20,
       fadeOut: false,
       loop: true,
-      loopCount: 5,
+      loopCount: 5
       // onComplete: self => {
       //   this.do();
       // }
     });
-      document.querySelectorAll(".typed-cursor")[0].style.display = "none";
+    document.querySelectorAll(".typed-cursor")[0].style.display = "none";
   }
-
 };
 </script>

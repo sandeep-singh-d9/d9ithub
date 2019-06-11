@@ -3,7 +3,8 @@
     <navigation></navigation>
     <div class="header_about our_team">
       <div class="container">
-        <div class="row">
+        <!-- --------------------desktop------------- -->
+        <div class="row desktop">
           <div class="col-sm-6"></div>
           <div class="col-md-6">
             <div class="main-timeline">
@@ -17,7 +18,7 @@
                     <a href="#" class="timeline-content">
                       <h3 class="title">Digvijay Vaghela</h3>
                       <p class="description">Founder / Director.</p>
-                      <p>D9ithub is World Class IT Enterprise with excellent delivery, quality, and support. I am proud to be part of D9ithub Team.</p>
+                      <!--  -->
                       <div class="team_circle_bg"></div>
                       <div class="timeline-icon">
                         <img src="../assets/images/digvijayvaghela.jpg" alt>
@@ -40,7 +41,7 @@
                   <a href="#" class="timeline-content">
                     <h3 class="title">Dhruv Patel</h3>
                     <p class="description">Co - Founder / CEO.</p>
-                    <p>D9ithub is World Class IT Enterprise with excellent delivery, quality, and support. I am proud to be part of D9ithub Team.</p>
+                    
                     <div class="team_circle_bg"></div>
                     <div class="timeline-icon">
                       <img src="../assets/images/dhruvpatel.jpg" alt>
@@ -52,7 +53,7 @@
                   <a href="#" class="timeline-content">
                     <h3 class="title">Kandarp Pandya</h3>
                     <p class="description">Sr. Frontend / Web Developer.</p>
-                    <p>D9ithub is World Class IT Enterprise with excellent delivery, quality, and support. I am proud to be part of D9ithub Team.</p>
+                    
                     <div class="team_circle_bg"></div>
                     <div class="timeline-icon">
                       <img src="../assets/images/kandarppandya.jpg" alt>
@@ -63,7 +64,7 @@
                   <a href="#" class="timeline-content" >
                     <h3 class="title">Palak Sukhadiya</h3>
                     <p class="description">Sr. UI/UX Designer.</p>
-                    <p>D9ithub is World Class IT Enterprise with excellent delivery, quality, and support. I am proud to be part of D9ithub Team.</p>
+                    
                     <div class="team_circle_bg"></div>
                     <div class="timeline-icon">
                       <img src="../assets/images/palaksukhadiya.jpg" alt>
@@ -74,7 +75,7 @@
                   <a href="#" class="timeline-content">
                     <h3 class="title">Amit Solanki</h3>
                     <p class="description">Sr. Laravel Developer.</p>
-                    <p>D9ithub is World Class IT Enterprise with excellent delivery, quality, and support. I am proud to be part of D9ithub Team.</p>
+                    
                     <div class="team_circle_bg"></div>
                     <div class="timeline-icon">
                       <img src="../assets/images/amitsolanki.png" alt>
@@ -85,7 +86,7 @@
                   <a href="#" class="timeline-content">
                     <h3 class="title">Sandeep Singh</h3>
                     <p class="description">UI/UX Developer.</p>
-                    <p>D9ithub is World Class IT Enterprise with excellent delivery, quality, and support. I am proud to be part of D9ithub Team.</p>
+                    
                     <div class="team_circle_bg"></div>
                     <div class="timeline-icon">
                       <img src="../assets/images/sandeep_singh.jpg" alt>
@@ -96,7 +97,7 @@
                   <a href="#" class="timeline-content">
                     <h3 class="title">Rushi Purohit</h3>
                     <p class="description">MEAN Stack Developer.</p>
-                    <p>D9ithub is World Class IT Enterprise with excellent delivery, quality, and support. I am proud to be part of D9ithub Team.</p>
+                    
                     <div class="team_circle_bg"></div>
                     <div class="timeline-icon">
                       <img src="../assets/images/rushi_purohit.jpg" alt>
@@ -106,6 +107,112 @@
             </div>
           </div>
         </div>
+         <!-- --------------------desktop------------- -->
+         <!--------------- mobile -------------------->
+        <div class="row mobile">
+          
+          <div class="col-md-12">
+            <div class="main-timeline">
+              <div class="owl-carousel owl-theme" id="team-slider">
+              <div class="item">
+                <div  :key="1" color="blue lighten-2" dark>
+                  <div class="timeline">
+                    <a href="#" class="timeline-content">
+                      <h3 class="title">Digvijay Vaghela</h3>
+                      <p class="description">Founder / Director.</p>
+                      
+                      <div class="team_circle_bg"></div>
+                      <div class="timeline-icon">
+                        <img src="../assets/images/digvijayvaghela.jpg" alt>
+                      </div>
+                      <!-- <span class="timeline-year">About</span> -->
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div  :key="2" class="timeline">
+                  <a href="#" class="timeline-content">
+                    <h3 class="title">Dhruv Patel</h3>
+                    <p class="description">Co - Founder / CEO.</p>
+                    
+                    <div class="team_circle_bg"></div>
+                    <div class="timeline-icon">
+                      <img src="../assets/images/dhruvpatel.jpg" alt>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div  :key="3" class="timeline" v-on:scroll="handleonscroll" >
+                  <a href="#" class="timeline-content">
+                    <h3 class="title">Kandarp Pandya</h3>
+                    <p class="description">Sr. Frontend / Web Developer.</p>
+                    
+                    <div class="team_circle_bg"></div>
+                    <div class="timeline-icon">
+                      <img src="../assets/images/kandarppandya.jpg" alt>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div  :key="4" class="timeline" >
+                  <a href="#" class="timeline-content" >
+                    <h3 class="title">Palak Sukhadiya</h3>
+                    <p class="description">Sr. UI/UX Designer.</p>
+                    
+                    <div class="team_circle_bg"></div>
+                    <div class="timeline-icon">
+                      <img src="../assets/images/palaksukhadiya.jpg" alt>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div  :key="5" class="timeline" v-on:scroll="handleonscroll" >
+                  <a href="#" class="timeline-content">
+                    <h3 class="title">Amit Solanki</h3>
+                    <p class="description">Sr. Laravel Developer.</p>
+                    
+                    <div class="team_circle_bg"></div>
+                    <div class="timeline-icon">
+                      <img src="../assets/images/amitsolanki.png" alt>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div  :key="6" class="timeline" >
+                  <a href="#" class="timeline-content">
+                    <h3 class="title">Sandeep Singh</h3>
+                    <p class="description">UI/UX Developer.</p>
+                    
+                    <div class="team_circle_bg"></div>
+                    <div class="timeline-icon">
+                      <img src="../assets/images/sandeep_singh.jpg" alt>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div  :key="7" class="timeline">
+                  <a href="#" class="timeline-content">
+                    <h3 class="title">Rushi Purohit</h3>
+                    <p class="description">MEAN Stack Developer.</p>
+                    
+                    <div class="team_circle_bg"></div>
+                    <div class="timeline-icon">
+                      <img src="../assets/images/rushi_purohit.jpg" alt>
+                    </div>
+                  </a>
+                </div>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+         <!--------------- mobile -------------------->
       </div>
     </div>
   </div>
@@ -138,7 +245,24 @@ export default {
   mounted() {
     this.show = true;
     
-
+    $(document).ready(function() {
+				  var owl = $('#team-slider');
+				  owl.owlCarousel({
+					items: 1,
+					loop: true,
+					margin: 10,
+					autoplay: true,
+					autoplayTimeout: 8000,
+					autoplayHoverPause:false
+				  });
+				  $('.play').on('click', function() {
+					owl.trigger('play.owl.autoplay', [1000])
+				  })
+				  $('.stop').on('click', function() {
+					owl.trigger('stop.owl.autoplay')
+				  })
+        }) 
+        
     AOS.init();
 
     // You can also pass an optional settings object

@@ -42,7 +42,7 @@
                   <img src="../assets/images/reece.png" alt title>
                 </div>
                 <h2>Reece Sellin, Sr. Software Developer, JGRobo Marketing, LLC</h2>
-                <p>Working with D9 is always a splendid experience.  They combine great communication with excellent skills, and as a result have become our go-to team for efficient, cost-effective web solutions.  I recommend them without hesitation!.</p>
+                <p>Working with D9 is always a splendid experience. They combine great communication with excellent skills, and as a result have become our go-to team for efficient, cost-effective web solutions. I recommend them without hesitation!.</p>
               </div>
             </li>
             <li>
@@ -69,95 +69,107 @@
         </div>
       </div>
       <v-container>
-      <div class="mobile_area">
-        <div class="row header_content_top">
-          <div class="col-lg-12">
-            <h2>OUR TESTIMONIAL</h2>
+        <div class="mobile_area">
+          <div class="row header_content_top">
+            <div class="col-lg-12">
+              <h2>OUR TESTIMONIAL</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="owl-carousel owl-theme" id="testimonial-slider1">
+              <div class="item">
+                <div class="col-md-3 col-sm-12 col-lg-8">
+                  <div class="serviceBox">
+                    <div class="service-content">
+                      <div class="service-icon">
+                        <img src="../assets/images/dean.png" alt title>
+                      </div>
+                      <h3 class="title">Dean Jones</h3>
+                      <h5
+                        class="description"
+                      >I have had d9ithub perform many projects for me and they have completed all of them on time and with great quality,I continue to use them exclusively.</h5>
+                    </div>
+                    <!-- <router-link to="/ourService/webdevelopment">
+                  <a class="read-more" href>Read More</a>
+                    </router-link>-->
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-3 col-sm-12 col-lg-8">
+                  <div class="serviceBox">
+                    <div class="service-content">
+                      <div class="service-icon noimage">
+                        <img src="../assets/images/noimage.png" alt title>
+                      </div>
+                      <h3 class="title">Danielle McCarthy</h3>
+                      <h5
+                        class="description"
+                      >Has been very helpful and completed tasks in a timely fashion to a good standard. Will use again and again.</h5>
+                    </div>
+                    <!-- <router-link to="/ourService/webdesign">
+                  <a class="read-more" href>Read More</a>
+                    </router-link>-->
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-3 col-sm-12 col-lg-8">
+                  <div class="serviceBox">
+                    <div class="service-content">
+                      <div class="service-icon">
+                        <img src="../assets/images/lisa_gibson.jpg" alt title>
+                      </div>
+                      <h3 class="title">Lisa Gibson</h3>
+                      <h5
+                        class="description"
+                      >Working with D9 has been great! I needed help with a tricky e-commerce coding issue, and they not only resolved the issue, but have also provided other services to support developing and optimizing my clients' sites. Communication is great, and the quality of work is first class. They come highly recommend by me.</h5>
+                    </div>
+                    <!-- <router-link to="/ourService/cmsandecommerce">
+                  <a class="read-more" href>Read More</a>
+                    </router-link>-->
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-3 col-sm-12 col-lg-8">
+                  <div class="serviceBox">
+                    <div class="service-content">
+                      <div class="service-icon noimage">
+                        <img src="../assets/images/noimage.png" alt title>
+                      </div>
+                      <h3 class="title">Renee J-Allen</h3>
+                      <h5
+                        class="description"
+                      >Great communicator, efficient and attentive to clients details and needs. Definitely recommend and will use for future projects!.</h5>
+                    </div>
+                    <!-- <router-link to="/ourService/mobileDevelopment">
+                  <a class="read-more" href>Read More</a>
+                    </router-link>-->
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="col-md-3 col-sm-12 col-lg-8">
+                  <div class="serviceBox">
+                    <div class="service-content">
+                      <div class="service-icon new_img">
+                        <img src="../assets/images/reece.png" alt title>
+                      </div>
+                      <h3 class="title">Reece Sellin</h3>
+                      <h5
+                        class="description"
+                      >Working with D9 is always a splendid experience. They combine great communication with excellent skills, and as a result have become our go-to team for efficient, cost-effective web solutions. I recommend them without hesitation.</h5>
+                    </div>
+                    <!-- <router-link to="/ourService/webdesign">
+                  <a class="read-more" href>Read More</a>
+                    </router-link>-->
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-12 col-lg-8 " data-aos="fade-left">
-            <div class="serviceBox">
-              <div class="service-content">
-                <div class="service-icon">
-                  <img src="../assets/images/dean.png" alt title>
-                </div>
-                <h3 class="title">Dean Jones</h3>
-                <h5
-                  class="description"
-                >I have had d9ithub perform many projects for me and they have completed all of them on time and with great quality,I continue to use them exclusively.</h5>
-              </div>
-              <!-- <router-link to="/ourService/webdevelopment">
-                  <a class="read-more" href>Read More</a>
-              </router-link>-->
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-12 col-lg-8 " data-aos="fade-left">
-            <div class="serviceBox">
-              <div class="service-content">
-                <div class="service-icon noimage">
-                  <img src="../assets/images/noimage.png" alt title>
-                </div>
-                <h3 class="title">Danielle McCarthy</h3>
-                <h5
-                  class="description"
-                >Has been very helpful and completed tasks in a timely fashion to a good standard. Will use again and again.</h5>
-              </div>
-              <!-- <router-link to="/ourService/webdesign">
-                  <a class="read-more" href>Read More</a>
-              </router-link>-->
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-12 col-lg-8 " data-aos="fade-right">
-            <div class="serviceBox">
-              <div class="service-content">
-                <div class="service-icon">
-                  <img src="../assets/images/lisa_gibson.jpg" alt title>
-                </div>
-                <h3 class="title">Lisa Gibson</h3>
-                <h5
-                  class="description"
-                >Working with D9 has been great! I needed help with a tricky e-commerce coding issue, and they not only resolved the issue, but have also provided other services to support developing and optimizing my clients' sites. Communication is great, and the quality of work is first class. They come highly recommend by me.</h5>
-              </div>
-              <!-- <router-link to="/ourService/cmsandecommerce">
-                  <a class="read-more" href>Read More</a>
-              </router-link>-->
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-12 col-lg-8 " data-aos="fade-right">
-            <div class="serviceBox">
-              <div class="service-content">
-                <div class="service-icon noimage">
-                  <img src="../assets/images/noimage.png" alt title>
-                </div>
-                <h3 class="title">Renee J-Allen</h3>
-                <h5
-                  class="description"
-                >Great communicator, efficient and attentive to clients details and needs. Definitely recommend and will use for future projects!.</h5>
-              </div>
-              <!-- <router-link to="/ourService/mobileDevelopment">
-                  <a class="read-more" href>Read More</a>
-              </router-link>-->
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-12 col-lg-8 " data-aos="fade-left">
-            <div class="serviceBox">
-              <div class="service-content">
-                <div class="service-icon new_img">
-                  <img src="../assets/images/reece.png" alt title>
-                </div>
-                <h3 class="title">Reece Sellin, Sr. Software Developer, JGRobo Marketing, LLC</h3>
-                <h5
-                  class="description"
-                >Working with D9 is always a splendid experience.  They combine great communication with excellent skills, and as a result have become our go-to team for efficient, cost-effective web solutions.  I recommend them without hesitation.</h5>
-              </div>
-              <!-- <router-link to="/ourService/webdesign">
-                  <a class="read-more" href>Read More</a>
-              </router-link>-->
-            </div>
-          </div>
-        </div>
-      </div>
       </v-container>
     </div>
   </div>
@@ -189,6 +201,24 @@ export default {
     $(".rotating-slider").rotatingSlider({
       autoRotate: true
     });
+
+    $(document).ready(function() {
+				  var owl = $('#testimonial-slider1');
+				  owl.owlCarousel({
+					items: 1,
+					loop: true,
+					margin: 10,
+					autoplay: true,
+					autoplayTimeout: 8000,
+					autoplayHoverPause:false
+				  });
+				  $('.play').on('click', function() {
+					owl.trigger('play.owl.autoplay', [1000])
+				  })
+				  $('.stop').on('click', function() {
+					owl.trigger('stop.owl.autoplay')
+				  })
+				})
 
     AOS.init({
       // Global settings:

@@ -1,6 +1,8 @@
 <template>
     <div>
+         <div class="main_top_content">
         <navigation></navigation>
+         </div>
         <Carousel></Carousel>
         <HomeSection class="mobile_tab"></HomeSection>
         <!-- <portfolio></portfolio> -->

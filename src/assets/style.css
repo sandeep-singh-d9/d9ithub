@@ -274,13 +274,13 @@ footer a .icons{margin-top:12px;display:inline-block;font-size:20px;}
 /*--------------------------------- our team -----------------------------*/
 .our_team{background-image:url(../assets/images/d9gif.gif);background-repeat:no-repeat;background-attachment:fixed;background-position:0% 70%;background-size:42%;    background-color: #ecffff;}
 .our_team .main-timeline .timeline{font-family:"Roboto", sans-serif;width:100%;padding:50px 0;box-shadow:10px 0 10px -16px #000 inset;display:inline-block;}
-.our_team .main-timeline .timeline-content{color:#fff;background:linear-gradient(165deg, #c1386d 49%, #ce3f6a 50%);text-align:center;width:100%;padding:20px 130px 20px 85px;border:10px solid rgba(255, 255, 255, 0.5);border-left:0 solid transparent;box-shadow:10px 0 10px -10px #000 inset;border-radius:0 70px 70px 0;display:inline-block;position:relative;}
+.our_team .main-timeline .timeline-content{color:#fff;background:linear-gradient(165deg, #c1386d 49%, #ce3f6a 50%);text-align:center;width:100%;padding: 53px 133px 47px 87px;border:10px solid rgba(255, 255, 255, 0.5);border-left:0 solid transparent;box-shadow:10px 0 10px -10px #000 inset;border-radius:0 70px 70px 0;display:inline-block;position:relative;}
 .our_team .main-timeline .timeline-content:hover{text-decoration:none;}
-.our_team .main-timeline .title{font-size:25px;margin:0 0 5px 0;}
+.our_team .main-timeline .title{font-size:25px;margin:0 0 5px 0; }
 .our_team .main-timeline .description{font-size:13px;letter-spacing:1px;margin:0;}
 .our_team .main-timeline .timeline-year{font-size:35px;display:block;position:absolute;top:20px;right:15px;}
 .our_team .main-timeline .timeline:nth-child(even){box-shadow:-10px 0 10px -16px #000 inset;}
-.our_team .main-timeline .timeline:nth-child(even) .timeline-content{float:right;padding:20px 85px 20px 130px;border-radius:70px 0 0 70px;box-shadow:-10px 0 10px -10px #000 inset;border:10px solid rgba(255, 255, 255, 0.5);border-right:0 solid transparent;}
+.our_team .main-timeline .timeline:nth-child(even) .timeline-content{float:right;padding: 53px 5px 47px 87px;border-radius:70px 0 0 70px;box-shadow:-10px 0 10px -10px #000 inset;border:10px solid rgba(255, 255, 255, 0.5);border-right:0 solid transparent;}
 .our_team .main-timeline .timeline:nth-child(even) .timeline-content:before{right:auto;left:-60px;}
 .our_team .main-timeline .timeline:nth-child(even) .timeline-year{right:auto;left:15px;}
 .our_team .main-timeline .timeline:nth-child(even) .timeline-icon{right:auto;left:-38px;}
@@ -528,7 +528,7 @@ ul.requirement_detail { color: #000;margin-top: 15px;display: inline-block;}
 .contact-info{font-size:20px;}
 .contact_inner{width:33%;margin:0px auto;margin-top:202px;}
 .icon_contact{list-style:none;}
-.icon_contact li a{color:#518a22;background:transparent;font-size:18px;line-height:70px;width:30px;height:30px;display:inline-block;}
+.icon_contact li a{color:#518a22;background:transparent;font-size:18px;line-height:70px;display:inline;}
 .text_contact p{font-family:Arial, Helvetica, sans-serif;color:black;text-align:center;}
 .contact-info h1{text-align:center;}
 
@@ -626,4 +626,249 @@ ul.requirement_detail { color: #000;margin-top: 15px;display: inline-block;}
 
 .mobile{
 	display: none;
+}
+
+/*---------------------- HOME PAGE SERVICE START ------------ */
+.content_home_services .header_content_top {
+	text-align: center;
+	margin-bottom: 30px;
+  }
+  .content_home_services .demo {
+	background: #e2e2e2;
+  }
+  .content_home_services .service-icon h3 {
+	font-family: cursive;
+  }
+  .content_home_services .serviceBox {
+	color: #000000;
+	padding: 0 10px 31px;
+	background-color: rgba(255, 255, 255, 0.15);
+	border: 1px solid transparent;
+	border-radius: 20px;
+	/* margin: 80px 0 30px; */
+	margin: 101px 0 30px;
+	position: relative;
+	border: 1px solid #ababab;
+  }
+  
+  .content_home_services .serviceBox .service-content {
+	text-align: center;
+	padding: 15px 20px 30px;
+	margin-top: -80px;
+	border-radius: 25px;
+	background-color: #fff;
+	position: relative;
+	transition: all 0.3s;
+  }
+  
+  /* .serviceBox .service-content:hover {
+	box-shadow: 0 0 20px -5px #000;
+  } */
+  
+  .content_home_services .serviceBox .service-content:after {
+	content: "";
+	height: 50px;
+	width: 50px;
+	border: 25px solid transparent;
+	border-top: 25px solid #ffffff;
+	transform: translateX(-50%);
+	position: absolute;
+	bottom: -50px;
+	left: 50%;
+  }
+  
+  .content_home_services .serviceBox .service-icon {
+	display: inline-block;
+	color: #0b71a3;
+	font-size: 76px;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+  }
+  
+  .content_home_services .serviceBox:hover .service-icon {
+	transform: rotateX(360deg);
+  }
+  
+  .content_home_services .serviceBox .title {
+	/* font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	font-family: cursive !important;
+	height: 30px; */
+	font-weight: 400;
+	/* text-transform: uppercase; */
+	margin: 18px 0 10px;
+	/* font-family: cursive !important; */
+	height: 30px;
+  }
+  
+  .content_home_services .serviceBox .description {
+	font-size: 15px;
+	line-height: 25px;
+	margin: 0;
+  }
+  
+  .content_home_services .serviceBox .read-more {
+	display: block;
+	width: 60%;
+	font-size: 15px;
+	/* font-weight: 600; */
+	text-transform: uppercase;
+	text-align: center;
+	color: #0b71a3;
+	padding: 10px 0;
+	background-color: #fff;
+	border-radius: 36px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	position: absolute;
+	left: 50%;
+	bottom: -20px;
+	border: 1px solid;
+  }
+  
+  .content_home_services .serviceBox .read-more:hover {
+	text-decoration: none;
+	letter-spacing: 2px;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 4px #058dc5;
+  }
+  /*---------------------- HOME PAGE SERVICE END ------------ */
+
+  /*---------------------- Ecommerce Portfolio ------------ */
+	.image_overlay_ecommerce{
+		background-size: cover;
+		width: 100%;
+		height: 500px;
+		background-image: url(https://d3u8ldawoq7n0v.cloudfront.net/public/local-cdn/images/page_images/h-banner-bg-main-new.jpg);
+		background-position: center;
+		height: 700px;
+		overflow: hidden;
+		padding: 50px 0;
+	}
+	.image_overlay_ecommerce img{
+		width: 100%;
+		height: auto;
+	}
+   .bg_2{
+	   background: #008359;
+	   width: 100%;
+	   height:100px;
+   }
+   .content_ecommerce h4{
+	   font-size: 16px;
+	   color:#fff;
+	   font-weight: 300;
+	   letter-spacing: 5px;
+   }
+   .title_header h1 ,.title_header p {
+	   color: #fff;
+   }
+   .title_header p{
+	font-size: 16px;
+    line-height: 23px;
+    padding: 8px 0;
+    letter-spacing: 1px;
+   }
+   
+  .content_ecommerce ul {
+	  list-style: none;
+  }
+  :focus {
+    outline: none;
+}
+  /*---------------------- Ecommerce Portfolio ------------ */
+
+
+  /* ------------------about mobile--------------  */
+  .about_data .header_content_top{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 90px;
+}
+.header_content_top h2{font-family: cursive}
+ .about_data .data_wedo{
+  height: 110px;
+}
+ .about_data .content_inner_about{
+  width:30%; 
+  display: inline-block;
+  text-align: center;
+  margin-right: 37px;
+  padding: 0 18px;
+}
+ .about_data .content_inner_about p {
+  color: #fff;
+   font-size: 18px;
+  font-family: Roboto, sans-serif !important;
+}
+
+ .about_data .content_inner_about h2 {
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  font-family: Roboto, sans-serif !important;
+}
+ .about_data .content_inner_about b
+{
+  font-weight: 700;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+ .about_data .title_home_top {
+  margin: 0;
+  color: #1d1d1d;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  font-family: Roboto, sans-serif !important;
+}
+ .about_data .map_title {
+  letter-spacing: 10px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 18px;
+  color: #1d1d1d;
+  text-align: center;
+  float: left;
+}
+ .about_data .content_inner_body {
+  width: 100%;
+  background-color: #81969b;
+  height: 360px;
+    padding: 0 23px;
+ 
+}
+ .about_data .content_about_title {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  padding-top: 79px;
+}
+ .about_data .image_container {
+  width: 100%;
+  /* height: 600px; */
+  overflow: hidden;
+}
+ .about_data .image_container img
+ {
+  width: 100%;
+  height: auto;
+}
+ .about_data .content_about_title img{
+  /* height: 517px; */
+  height: auto;
+  width: 100%;
+}
+.icon_contact li a.icon-font{
+	float: left;    line-height: inherit;
 }

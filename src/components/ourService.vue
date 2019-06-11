@@ -203,7 +203,7 @@
                     class="pie-context"
                   >Enterprise solutions to transform your business and address key challenges to drive maximum value, accelerate workflows, and improve efficiency.</div>
                   <div class="pie-cta">
-                    <router-link to>See More</router-link>
+                    <router-link to ="/ourService/enterpriseSolution">See More</router-link>
                   </div>
                 </div>
               </div>
@@ -362,7 +362,7 @@
                     class="pie-context"
                   >Enterprise solutions to transform your business and address key challenges to drive maximum value, accelerate workflows, and improve efficiency.</div>
                   <div class="pie-cta">
-                    <router-link to>See More</router-link>
+                    <router-link to ="/ourService/enterpriseSolution">See More</router-link>
                   </div>
                 </div>
               </div>

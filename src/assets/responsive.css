@@ -140,7 +140,7 @@
     }
     .icon_contact li a {
         font-size: 28px !important;
-        padding: 0 49px !important;
+        padding: 0 20px !important;
     }
     .widget-content{
         font-size: 25px;
@@ -506,6 +506,13 @@
     .contentCircle{
         top: 81px;
     }
+    .pie-context{
+        margin: 19px auto;
+        font-size: 13px;
+    }
+    .pie-name{
+        margin: 9px 0 5px; 
+    }
 }
 
 @media (max-width:980px) {
@@ -523,6 +530,9 @@
     .our_team{
         background-image: none;
     }
+    .recipe.active .pie-photo{
+        bottom: 33%;
+    }
 }
 
 @media (max-width:800px) {
@@ -531,6 +541,9 @@
     }
     .rotating-slider ul.slides li .inner {
         padding: 0;
+    }
+    .service-content .noimage img{
+        margin: 0 auto;
     }
     /* .rotating-slideshow-Aboutus #slider-main .spinner-btn{left: -646px !important;top: -1173px;}
     .rotating-slideshow-Aboutus .button a.pos2{top: -91%;} */
@@ -575,7 +588,7 @@
         display: none;
     }
     .contact_us {
-        background-size: 139%;
+        background-size: 130%;
     }
     .contact_inner {
         margin-top: 158px;
@@ -678,9 +691,12 @@
     .bg_phone_image{
         background-image: url("../assets/images/as.png");
         width: 100%;
-        height: 440px;
+        height: 586px;
         background-size: 100% 100%;
-        padding: 7.25% 9.25%;
+        padding: 11.25% 8.25%;
+    }
+    .right_side_tab .pie-context{
+        font-size: 22px;
     }
     .mobile.service .icon-arrow-left-circle::before ,.mobile.service .icon-arrow-right-circle::before{
         color: #fff;
@@ -699,6 +715,16 @@
     }
  .mobile_tab{
      display: block;
+ }
+ #testimonial-slider1 .owl-nav.disabled{
+     display: block;
+     margin-left: 40px;
+ }
+ #testimonial-slider1 .owl-nav.disabled i{
+    font-size: 39px;
+    margin-right: 53px;
+    border: 2px solid;
+    width: 44px;
  }
 
 
@@ -830,6 +856,104 @@
       .our_team{
         padding: 78px;
       }
+      .mobile_slider{
+        margin-bottom: 38px;
+      }
+      .our_team .timeline-icon{
+        height: 180px;
+        width: 180px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .our_team .main-timeline .timeline{
+        font-family: "Roboto", sans-serif;
+        padding: 50px 0;
+        display: inline-block;
+        box-shadow: none;
+    }
+    .our_team .main-timeline .timeline-content{
+        color: #fff;
+        background: linear-gradient(165deg, #c1386d 49%, #ce3f6a 0);
+        text-align: center;
+        width: 100%;
+        padding: 30px;
+        border: 10px solid rgba(255, 255, 255, 0.5);
+        display: inline-block;
+        position: relative;
+        box-shadow:none;
+        border-radius:0px;        
+    }
+    .our_team .timeline-icon{
+        height: 180px;
+        width: 180px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .our_team .team_circle_bg{
+        background-image: none;
+    }
+    .our_team .timeline-icon{
+        right: 0px;
+        top: 0px;
+    }
+    .team_circle_bg{
+      display:none;
+    }
+    .our_team{
+        padding: 78px 0;
+    }
+    .our_team .main-timeline .timeline:nth-child(even) .timeline-content{
+        padding: 20px 9px 20px 11px;
+        border-radius:0;
+    } 
+    .our_team .main-timeline .timeline:nth-child(even) .timeline-icon{
+        left:0;
+    }
+    #team-slider .owl-nav.disabled{
+        display: block;
+        text-align: center;
+    }
+    #team-slider .owl-nav.disabled i{
+       font-size: 39px;
+       margin-right: 53px;
+       border: 2px solid;
+       width: 44px;
+    }
+    .our_team .main-timeline .description{
+        letter-spacing: 3px;
+        line-height: 36px;
+    }
+    .our_team .main-timeline .title{
+        font-weight: 300;
+    }
+    /* .rotating-slideshow-Aboutus #slider-main .slider-overlay div p{
+        letter-spacing: 1px;
+        line-height: 26px;
+    } */
+    .rotating-slideshow-Aboutus #slider-main .spinner{
+        left: -93px;
+    }
+
+
+    /* -------------------aboutusmobile---------- */
+
+    .about_data .content_inner_about{
+        width: 28%;
+    }
+    .about_data .content_inner_about h2{
+        font-size: 30px
+    }
+    .about_data .content_inner_about p{
+        font-size: 17px
+    }
+    .mobile.service .copy .recipe-content-inner .pie-context{
+        height: 175px;
+    }
 }
 @media (max-width:768px) {
     .dotCircle{
@@ -840,6 +964,9 @@
     .rotating-slideshow-Aboutus .button a.pos2{
         left: -169%;
         top: 305px;
+    }
+    .services_text{
+        padding: 8px 49px;
     }
 }
 
@@ -862,6 +989,77 @@
         height: 95px;
         top: 118px;
     }
+    /* .android .bg_img{
+        background-position: 49% 76%;
+        background-size: 75%;
+    }
+    .Ipad .bg_img{
+        background-position: 49% 76%;
+        background-size: 75%;
+    }
+    .Cross_platform .bg_img{
+        background-position: 51% 62%;
+        background-size: 90%;
+    }
+    .php .bg_img{
+     background-position: 52% 64%;
+     background-size: 83%;
+    }
+    .vue .bg_img{
+        background-position: 47% 57%;
+        background-size: 81%;
+    }
+    .react .bg_img{
+        background-position: 47% 57%;
+        background-size: 81%;
+    }
+    .node .bg_img{
+        background-position: 47% 57%;
+        background-size: 81%;
+    }
+    .webdesign_services .right_services{
+        background-size: 96%;
+        background-position: 66% 55%;
+    }
+    .responsive .bg_img{
+        background-size: 96%;
+        background-position: 66% 70%;
+    }
+    .psd .bg_img{
+        background-size: 96%;
+        background-position: 66% 70%;
+    }  */
+    /* .bg_img{
+        background-size: 96% !important;
+        background-position: 66% 70% !important;
+    }  */
+    .webdevelopment_services.Resource_hire .right_services{
+        background-size: 100%;
+    }
+    .right_services{
+        height: 530px;
+        background-attachment: unset;
+    }
+    .left_services{
+        background: #431aaa;
+    }
+    .all_services{
+        height: 100%;
+    }
+    .bg_img{
+        background-attachment: unset !important;
+        background-size: 78% !important;
+        background-position: 55% 82% !important;
+    }
+    .webdevelopment_services .right_services{
+        background-size: 100%;
+    }
+    .webdesign_services .right_services{
+        background-size: 100%;
+    }
+    .cms_ecommerce .right_services{
+        background-size: 100%;
+    }
 }
 
 @media (max-width:736px) {
@@ -878,6 +1076,15 @@
     }
     .pie-serving img {
         margin: 4px 5px;
+    }
+    .about_data .content_inner_about{
+        width: 25%;
+    }
+    .about_data .content_inner_about h2{
+        font-size: 22px;
+    }
+    .about_data .content_inner_about p{
+        font-size: 14px;
     }
 }
 
@@ -943,6 +1150,12 @@
         padding-right: 14px;
         padding-left: 2px;
     } 
+    .about_data .content_inner_body{
+        height: auto;
+    }
+    .about_data .content_inner_about{
+        width: 100%;
+    }
 }
 
 @media (max-width:640px) {
@@ -959,7 +1172,10 @@
         font-size: 10px;
     }
     .bg_phone_image{
-        padding: 8.25% 9.25%;
+        padding: 11.25% 9.25%;
+    }
+    .mobile.service .copy .recipe-content-inner .pie-context{
+        height: 214px;
     }
 }
 
@@ -992,7 +1208,16 @@
         font-size: 9px;
     }
     .bg_phone_image{
-        padding: 9.25% 9.25%;
+        padding: 12.25% 9.25%;
+    }
+    .right_side_tab .pie-context{
+        font-size: 19px;
+    }
+    .service .nav_area{
+        padding-top: 114px;
+    }
+    .right_side_tab .pie-name{
+        font-size: 14px;
     }
 }
 
@@ -1020,6 +1245,9 @@
     .our_team .main-timeline .timeline:nth-child(even) .timeline-content{
         padding: 20px 9px 20px 130px;
     }
+    .service .nav_area{
+        padding-top: 103px
+    }
 }
 
 @media (max-width:536px) {
@@ -1045,6 +1273,19 @@
     .nav_area {
         top: 241px;
         left: 9px;
+        width: 95%;
+    }
+    .our_team .main-timeline .timeline-content{
+        padding: 21px 42px 16px 17px;
+    }
+    .bg_phone_image{
+        padding: 14.25% 9.25%;
+    }
+    .mobile.service .nav_area{
+        width: 98%;
+    }
+    .service .nav_area{
+        padding-right: 0px;
     }
 }
 
@@ -1088,6 +1329,9 @@
         width: 81%;
         margin: 0 10%;
     }
+    .bg_phone_image{
+        padding: 14.25% 9.25%;
+    }
     
     
 }
@@ -1112,6 +1356,7 @@
     }
     .bg_phone_image{
         background-size: 100% 89%;
+        padding: 16.25% 9.25%;
     }
     .mobile.service .nav_area .icon-arrow-right-circle::before, .mobile.service .nav_area .icon-arrow-left-circle::before{
         font-size:33px;
@@ -1127,61 +1372,8 @@
     .inner_career .section-title h2{
         font-size: 25px;
     }
-    .our_team .timeline-icon{
-        height: 180px;
-        width: 180px;
-        border: 2px solid #fff;
-        border-radius: 50%;
-        overflow: hidden;
-        margin: 0 auto;
-    }
-    .our_team .main-timeline .timeline{
-        font-family: "Roboto", sans-serif;
-        padding: 50px 0;
-        display: inline-block;
-        box-shadow: none;
-    }
-    .our_team .main-timeline .timeline-content{
-        color: #fff;
-        background: linear-gradient(165deg, #c1386d 49%, #ce3f6a 0);
-        text-align: center;
-        width: 100%;
-        padding: 30px;
-        border: 10px solid rgba(255, 255, 255, 0.5);
-        display: inline-block;
-        position: relative;
-        box-shadow:none;
-        border-radius:0px;        
-    }
-    .our_team .timeline-icon{
-        height: 180px;
-        width: 180px;
-        border: 2px solid #fff;
-        border-radius: 50%;
-        position: relative;
-        overflow: hidden;
-        margin: 0 auto;
-    }
-    .our_team .team_circle_bg{
-        background-image: none;
-    }
-    .our_team .timeline-icon{
-        right: 0px;
-        top: 0px;
-    }
-    .team_circle_bg{
-      display:none;
-    }
-    .our_team{
-        padding: 78px 0;
-    }
-    .our_team .main-timeline .timeline:nth-child(even) .timeline-content{
-        padding: 20px 9px 20px 11px;
-        border-radius:0;
-    } 
-    .our_team .main-timeline .timeline:nth-child(even) .timeline-icon{
-        left:0;
-    }
+   
+   
 }
 @media (max-width:412px){
     .rotating-slideshow-Aboutus .button a.pos2{
@@ -1189,6 +1381,17 @@
     }
 }
 
+@media (max-width: 384px){
+    .rotating-slideshow-Aboutus .button a.pos2{
+        left: -300%;
+    }
+    .rotating-slideshow-Aboutus .button a.pos2{
+        top: 83px;
+    }
+    .about_data .content_about_title{
+        height: 300px;
+    }
+}
 @media (max-width:375px) {
     .rotating-slideshow-Aboutus #slider-main .slider-overlay div h3 {
         font-size: 29px;
@@ -1211,6 +1414,21 @@
    .service .nav_area{
     top: 207px;
    }
+    .services_text{
+        padding: 19px 20px;
+    }
+    .services_text p{
+        font-size: 11px;
+        text-align: left;
+        color: #fff;
+        line-height: 17px;
+    }
+    .services_text h2{
+        font-size: 25px;
+    }
+    .services_text ul li{
+        line-height: 15px;
+    }
 }
 
 @media (max-width:360px) {
@@ -1226,6 +1444,21 @@
     }
     .nav_area {
         top: 233px;
+    }
+    .services_text ul li{
+        font-size: 12px;
+    }
+    .about_data .content_about_title{
+        height: 154px;
+    }
+    .about_data .content_about_title{
+        padding-top: 0;
+    }
+    .mobile.service .copy .recipe-content-inner .pie-context{
+        height: 189px;
+    }
+    .right_side_tab .pie-context{
+        font-size: 13px;
     }
 }
 
@@ -1247,18 +1480,20 @@
         height: 685px;
     }
     .icon_contact li a {
-        padding: 0px 22px !important;
+        padding: 0px 12px !important;
+        line-height: 35px;
     }
     .nav_area {
         padding: 2px;
         left: 2px;
     }
     .nav_area {
-        top: 215px;
+        top: 272px;
         padding-right: 8px;
     }
     .bg_phone_image{
-        padding: 14.25% 9.25%;
+        padding: 18.25% 9.25%;
+        
     }
     .mobile.service .nav_area .icon-arrow-right-circle::before, .mobile.service .nav_area .icon-arrow-left-circle::before{
         font-size: 20px;
@@ -1269,4 +1504,8 @@
     .inner_career .section-title h2{
         font-size: 22px;
     }
+    .right_services{
+        height: 286px;
+    }
+    
 }

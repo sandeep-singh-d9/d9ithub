@@ -17,6 +17,7 @@ import hireDedicatedResource from "./components/hireDedicatedResource"
 import enterpriseSolution from "./components/enterpriseSolution"
 import homeSectionComponent from "./views/homeSectionComponent"
 import testMonial from "./views/testimonialHome"
+import Ecommerce_inner from "./components/ecommercePortfolio"
 
 Vue.use(Router);
 
@@ -110,6 +111,11 @@ export default new Router({
       path: "/testMonial",
       name: "testMonial",
       component: testMonial
+    },
+    {
+      path: "/Ecommerce",
+      name: "Ecommerce",
+      component: Ecommerce_inner
     }
   ]
 });

@@ -2,7 +2,8 @@
   <div>
     <div class="main_top_content">
       <navigation></navigation>
-      <div class="row header_content_top">
+      <div class="about_data">
+      <div class="row header_content_top about">
             <div class="col-lg-12">
                <h2>About Us</h2>
             </div>
@@ -38,6 +39,7 @@
           <h2>Our  <b>Mission</b></h2>
             <p>“To gain expertise on leading technologies and offer services that are ahead of time and make it available for masses.”</p>
         </div>
+    </div>
     </div>
   </div>
    </div>
@@ -110,89 +112,4 @@ export default {
   };
 </script>
 
-<style scoped>
-.header_content_top{
-    text-align: center;
-    margin-bottom: 30px;
-    padding-top: 90px;
-}
-.header_content_top h2{font-family: cursive}
-.data_wedo{
-  height: 110px;
-}
-.content_inner_about{
-  width:30%; 
-  display: inline-block;
-  text-align: center;
-  margin-right: 37px;
-  padding: 0 18px;
-}
-.content_inner_about p {
-  color: #fff;
-   font-size: 18px;
-  font-family: Roboto, sans-serif !important;
-}
 
-.content_inner_about h2 {
-  color: #fff;
-  text-align: center;
-  padding: 0;
-  font-style: italic;
-  font-weight: 300;
-  font-size: 40px;
-  font-family: Roboto, sans-serif !important;
-}
-.content_inner_about b
-{
-  font-weight: 700;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-}
-.title_home_top {
-  margin: 0;
-  color: #1d1d1d;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-  font-family: Roboto, sans-serif !important;
-}
-.map_title {
-  letter-spacing: 10px;
-  margin-top: 50px;
-  text-transform: uppercase;
-  width: 100%;
-  font-size: 18px;
-  color: #1d1d1d;
-  text-align: center;
-  float: left;
-}
-.content_inner_body {
-  width: 100%;
-  background-color: #81969b;
-  height: 360px;
-    padding: 0 23px;
- 
-}
-.content_about_title {
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
-  padding-top: 79px;
-}
-.image_container {
-  width: 100%;
-  /* height: 600px; */
-  overflow: hidden;
-}
-.image_container img
- {
-  width: 100%;
-  height: auto;
-}
-.content_about_title img{
-  /* height: 517px; */
-  height: auto;
-  width: 100%;
-}
-</style>
